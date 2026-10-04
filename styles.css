@@ -216,6 +216,13 @@ body {
 	font-weight: 600;
 }
 
+.info-section h3 {
+	margin-top: 1.25rem;
+	margin-bottom: .5rem;
+	font-size: 1.15rem;
+	font-weight: 600;
+}
+
 .info-section p,
 .practical-steps,
 .practical-list {
@@ -232,6 +239,25 @@ body {
 .small-note {
 	color: var(--muted);
 	font-size: .9rem;
+}
+
+.council-link,
+.contact-link {
+	display: inline-flex;
+	align-items: baseline;
+	gap: .25rem;
+	color: var(--brick);
+	font-weight: 700;
+	text-decoration-thickness: 1px;
+	text-underline-offset: .2em;
+}
+
+.council-link:hover,
+.council-link:focus-visible,
+.contact-link:hover,
+.contact-link:focus-visible {
+	color: #6f2c20;
+	text-decoration-thickness: 2px;
 }
 
 .contact-note {
