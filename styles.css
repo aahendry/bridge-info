@@ -54,6 +54,29 @@ body {
 	color: white;
 }
 
+.resident-header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+}
+
+.resident-copy {
+	flex: 1 1 auto;
+}
+
+.facade-sketch {
+	flex: 0 0 300px;
+	width: 300px;
+	margin: 0;
+}
+
+.facade-watercolor {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
 .back-link {
 	display: inline-block;
 	color: var(--brick);
@@ -198,6 +221,20 @@ body {
 
 
 @media (max-width: 575px) {
+	.resident-header-inner {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+
+	.facade-sketch {
+		align-self: flex-end;
+		flex-basis: auto;
+		width: min(70vw, 250px);
+		margin-top: -1rem;
+		margin-bottom: -.75rem;
+	}
+
 	.navbar-brand strong {
 		font-size: .85rem;
 	}
