@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f5f4ef">
+	<title>The Bridge Apartments | Resident Information</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+		rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap"
+		rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar sticky-top border-bottom">
+		<div class="container py-2">
+			<a class="navbar-brand d-flex align-items-center gap-2"
+				href="index.html" aria-label="Practical help for life at The Bridge">
+				<span class="brand-mark">B</span>
+				<span class="lh-sm">
+					<strong class="d-block">THE BRIDGE APARTMENTS</strong>
+					<small class="brand-location text-secondary">
+						Argyle Street, Glasgow
+					</small>
+				</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mainNav">
+				<ul class="navbar-nav ms-auto gap-lg-3">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html" aria-current="page">
+							Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="water.html">Water & leaks</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="concierge.html">Concierge</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="waste.html">Bins & recycling</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contacts.html">Contacts</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main id="home">
+		<header class="resident-header">
+			<div class="container py-5">
+				<p class="section-label mb-2">Resident information</p>
+				<h1 class="page-title mb-3">Practical help for life at The Bridge</h1>
+				<p class="page-intro mb-0">
+					Choose a guide for common questions about your flat and the building.
+				</p>
+			</div>
+		</header>
+
+		<div class="container">
+			<section class="urgent-note my-4" aria-label="Emergency guidance">
+				<strong>Immediate danger or fire?</strong>
+				Call 999. For a water leak, open the Contacts guide and contact the factor's
+				emergency line.
+			</section>
+
+			<section class="topic-directory py-3" aria-label="Resident help topics">
+				<div class="row g-3 g-lg-4">
+					<div class="col-md-6">
+						<a class="topic-panel" href="water.html"
+							aria-label="Water & leaks">
+							<h2>Water & leaks</h2>
+							<p>
+								Find your flat's stopcock and what to do if a leak starts.
+							</p>
+							<span class="topic-action">
+								Open guide <span aria-hidden="true">→</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a class="topic-panel" href="concierge.html"
+							aria-label="Concierge">
+							<h2>Concierge</h2>
+							<p>
+								Get help with access, deliveries, and shared-area issues.
+							</p>
+							<span class="topic-action">
+								Open guide <span aria-hidden="true">→</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a class="topic-panel" href="waste.html"
+							aria-label="Bins & recycling">
+							<h2>Bins & recycling</h2>
+							<p>
+								Sort household waste and find guidance for bulky items.
+							</p>
+							<span class="topic-action">
+								Open guide <span aria-hidden="true">→</span>
+							</span>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a class="topic-panel" href="contacts.html"
+							aria-label="Contacts">
+							<h2>Contacts</h2>
+							<p>
+								What to include when reporting a repair and where to find contacts.
+							</p>
+							<span class="topic-action">
+								Open guide <span aria-hidden="true">→</span>
+							</span>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer class="site-footer py-4">
+		<div class="container small">
+			The Bridge Apartments · Resident information
+		</div>
+	</footer>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+	</script>
+</body>
+</html>
